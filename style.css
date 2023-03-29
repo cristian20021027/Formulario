@@ -1,0 +1,185 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Cera Round Pro', sans-serif;
+    min-height: 100vh;
+    background-image: url(/imagenes/FONDO\ NEBULADS.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Login Card */
+.login-card {
+    width: 430px;
+    background: rgba(0, 0, 0, 0.664);
+    padding: 4rem;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 4px 5px 10px 5px rgba(11, 198, 255, 0.212);
+}
+
+/* Login Card Logo */
+.login-card-logo {
+    margin-bottom: 1.5rem;
+}
+.login-card-logo img{
+    object-fit: cover;
+    width: 200px;
+    height: 250px;
+}
+
+
+/* ---------- */
+
+/* Login Card Standard */
+.login-card-logo,
+.login-card-header,
+.login-card-footer {
+    text-align: center;
+
+}
+
+.login-card a {
+    text-decoration: none;
+    color: #339a91;
+}
+
+.login-card a:hover {
+    text-decoration: underline;
+}
+.login-card h2{
+    font-family: 'Cera Round Pro', sans-serif;
+    font-size: 32px;
+    color: #f1f1f1;
+    margin: 5px;
+}
+/* ---------- */
+
+/* Login Card Header */
+.login-card-header {
+    margin-bottom: 2rem;
+}
+
+.login-card-header h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.login-card-header h2+div {
+    font-size: calc(1rem * .8);
+    opacity: .8;
+}
+/* ---------- */
+
+/* Login Card Form */
+.login-card-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-card-form .form-item {
+    position: relative;
+}
+
+.login-card-form .form-item .form-item-icon {
+    color: azure;
+    position: absolute;
+    top: .80rem;
+    left: 1.4rem;
+    font-size: 1.3rem;
+    opacity: .8;
+}
+/* Login Card Footer */
+.login-card-footer {
+    margin-top: 1.3rem;
+    color: #ccc;
+    font-family: 'Cera Round Pro', sans-serif;
+}
+.login-card-footer a{
+    color: #339a91;
+    font-family: 'Cera Round Pro', sans-serif;
+}
+/* ---------- */
+
+/* Login Card Form Elements */
+.login-card input[type="text"],
+.login-card input[type="password"],
+.login-card input[type="email"] {
+    width: 89%;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Cera Round Pro', sans-serif;
+    padding: 15px;
+    margin-top: 25px;
+    border: 1px solid  #00DED3;
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.288);
+    color: #ccc;
+    font-size: 16px;
+    box-shadow: 4px 5px 15px rgba(11, 198, 255, 0.274);
+    /* Efecto de transicion del input */
+    transition: 0.3s linear;
+}
+
+.login-card input:focus {
+    transform:scale(1.03);
+    background-color: none;
+    border-color: #339a91;
+}
+
+
+.login-card button {
+    width: 50%;
+    padding: 10px;
+    margin-top: 40px;
+    background-color: rgb(27, 188, 194);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    transition: all 600ms;
+    overflow: hidden;
+}
+
+.login-card button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* ---------- */
+.mensaje{
+    width: 300px;
+    padding: 19px;
+    text-align: center;
+    margin: auto;
+    color: rgb(212, 74, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+button {
+  background-color: #47a386;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 25px;
+}
+
